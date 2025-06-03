@@ -1,1 +1,15 @@
+# Ignore Python virtual environments
+venv/
 
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
