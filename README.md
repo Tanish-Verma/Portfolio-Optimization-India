@@ -52,19 +52,32 @@ Portfolio-Optimizer/
 │   └── transaction_cost_optimization.ipynb
 │
 ├── Reports/                  # Exported reports & results
-│   └── Charts/
-│       ├── all_optimized_weights_comparison.csv
-│       ├── cov_matrix.csv
-│       ├── expected_returns.csv
-│       ├── optimal_portfolios.csv
-│       ├── portfolio_comparison.csv
-│       ├── portfolio_simulations.csv
-│       ├── Sector_constrained_portfolio.csv
-│       ├── transaction_cost_tradeoff.csv
-│       ├── weight_optimized_portfolio.csv
-│       └── weights_for_different_alpha.csv
+│   ├── all_optimized_weights_comparison.csv
+│   ├── cov_matrix.csv
+│   ├── expected_returns.csv
+│   ├── optimal_portfolios.csv
+│   ├── portfolio_comparison.csv
+│   ├── portfolio_simulations.csv
+│   ├── Sector_constrained_portfolio.csv
+│   ├── transaction_cost_tradeoff.csv
+│   ├── weight_optimized_portfolio.csv
+│   ├── weights_for_different_alpha
+│   └── Charts/               # Visualizations
+│       ├── Annual_Cov_Matrix_Heatmap.png
+│       ├── efficient_frontier_comparison2.png
+│       ├── efficient_frontier.png
+│       ├── Efficient_Frontiers_comparison.png
+│       ├── max_sharpe_optimized_comparison.png
+│       ├── max_sharpe_vs_simulated.png
+│       ├── Max_SharpRatio_weight_distribution.png
+│       ├── min_volatility_optimized_comparison.png
+│       ├── min_volatility_vs_simulated.png
+│       ├── Min_Volatility_weight_distribution.png
+│       ├── Portfolio_Return_Comparison_Barplot.png
+│       ├── Portfolio_SharpeRatio_Comparison_Barplot.png
+│       ├── Portfolio_Volatility_Comparison_Barplot.png
+│       └── ...               # (More charts in this folder)
 │
-├── requirements.txt          # Dependencies
 ├── .gitignore
 └── README.md
 ```
