@@ -1,3 +1,8 @@
+# -----------------------------------------------
+# Nifty 50 Tickers and Sector Classification
+# -----------------------------------------------
+
+# Mapping of company names to their NSE ticker symbols
 nifty50_tickers = {
     "Adani Enterprises": "ADANIENT.NS",
     "Adani Ports": "ADANIPORTS.NS",
@@ -49,4 +54,39 @@ nifty50_tickers = {
     "UltraTech Cement": "ULTRACEMCO.NS",
     "UPL": "UPL.NS",
     "Wipro": "WIPRO.NS"
+}
+
+# Mapping of sectors to lists of ticker symbols
+nifty50_sectors = {
+    'Energy': [
+        'ADANIENT.NS', 'BPCL.NS', 'COALINDIA.NS', 'ONGC.NS', 'RELIANCE.NS'
+    ],
+    'Industrials': [
+        'ADANIPORTS.NS', 'LT.NS'
+    ],
+    'Healthcare': [
+        'APOLLOHOSP.NS', 'CIPLA.NS', 'DIVISLAB.NS', 'DRREDDY.NS', 'SUNPHARMA.NS'
+    ],
+    'Basic Materials': [
+        'ASIANPAINT.NS', 'GRASIM.NS', 'HINDALCO.NS', 'JSWSTEEL.NS', 'TATASTEEL.NS', 'ULTRACEMCO.NS', 'UPL.NS'
+    ],
+    'Financial Services': [
+        'AXISBANK.NS', 'BAJFINANCE.NS', 'BAJAJFINSV.NS', 'HDFCBANK.NS', 'HDFCLIFE.NS',
+        'ICICIBANK.NS', 'INDUSINDBK.NS', 'KOTAKBANK.NS', 'SBIN.NS', 'SBILIFE.NS'
+    ],
+    'Consumer Cyclical': [
+        'BAJAJ-AUTO.NS', 'EICHERMOT.NS', 'HEROMOTOCO.NS', 'M&M.NS', 'MARUTI.NS', 'TATAMOTORS.NS', 'TITAN.NS'
+    ],
+    'Communication Services': [
+        'BHARTIARTL.NS'
+    ],
+    'Consumer Defensive': [
+        'BRITANNIA.NS', 'HINDUNILVR.NS', 'ITC.NS', 'NESTLEIND.NS', 'TATACONSUM.NS'
+    ],
+    'Technology': [
+        'HCLTECH.NS', 'INFY.NS', 'LTIM.NS', 'TCS.NS', 'TECHM.NS', 'WIPRO.NS'
+    ],
+    'Utilities': [
+        'NTPC.NS', 'POWERGRID.NS'
+    ]
 }
